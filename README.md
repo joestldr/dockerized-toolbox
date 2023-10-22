@@ -16,6 +16,10 @@ Just a toolbox...
 - `vim`
 - `nano`
 
+DockerHub: https://hub.docker.com/r/joestldr/toolbox
+
+GitHub: https://github.com/joestldr/dockerized-toolbox
+
 ## TLDR; Sample usage:
 
 ```bash
@@ -26,6 +30,12 @@ docker run \
     --volume ~/.ssh:/ssh \
   joestldr/toolbox:latest
 ```
+
+## Sample `docker compose` usage:
+
+See "Dockerized VPN Proxy" - Magical HTTP and SOCKS4/SOCKS5 proxy behind VPN (without host being on VPN)
+
+Link: https://github.com/joestldr/dockerized-vpn-proxy
 
 # License
 
